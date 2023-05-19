@@ -1,0 +1,183 @@
+.body{
+    background-color: #262633;
+    margin-left: 380px;
+    margin-right: 380px;
+
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #515466;
+}
+
+.title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.text1{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+
+}
+
+.text2{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #515466;
+}
+
+.text3{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.tabela{
+    width: 100%;
+}
+
+.textabela{
+    text-align: justify;
+    color: white;
+}
+
+.preguiça{
+    color: rgb(255, 0, 0);
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #515466;
+}
+
+.text4{
+    text-align: center;
+    color: white;
+}
+
+.infect{
+    color: yellow;
+}
+
+.form1{
+    color: white;
+}
+
+.p1{
+    color: white;
+}
+
+.dive123{
+    display: flex;
+}
+
+.imgtabela1{
+    transform: rotate(2deg);
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.imgtabela1:hover{
+    transform: rotate(-2deg);
+}
+
+.imgtabela2{
+    transform: skewY(-4deg);
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.imgtabela2:hover{
+    transform: skewY(4deg);
+}
+
+.imgtabela3{
+    transform: rotate(-2deg);
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.imgtabela3:hover{
+    transform: rotate(2deg);
+}
+
+.imgtabela4{
+    transform: skewY(4deg);
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.imgtabela4:hover{
+    transform: skewY(-4deg);
+}
+
+.container1{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right, black, white);;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.container1:hover{
+    background-image: linear-gradient(to right, white, black);;
+}
+
+.container2{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right, black, white);;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.container2:hover{
+    background-image: linear-gradient(to right, white, black);;
+}
+
+.container3{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right, black, white);;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.container3:hover{
+    background-image: linear-gradient(to right, white, black);;
+}
+
+.container4{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to right, black, white);;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.container4:hover{
+    background-image: linear-gradient(to right, white, black);;
+}
