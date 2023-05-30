@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    height: 50px;
+    line-height: 50px;
+    background: lightcoral;
+}
+
+.titulo {
+    color: white;
+    font-size: 25px;
+}
+
+.opções {
+    display: flex;
+}
+
+.opções .item {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .4s;
+}
+
+.opções .item:hover {
+    background: black;
+}
+
+.opções .link {
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 935px) {
+
+    nav {
+        padding: 0 2rem;
+    }
+
+    nav .opções .item {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 675px) {
+
+    nav .opções {
+        display: grid;
+        position: absolute;
+        background: lightcoral;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .3s;
+    }
+
+    nav .opções .item {
+        padding-left: 35px;
+    }
+
+    nav .troca {
+        display: grid !important;
+    }
+
+}
+
+.troca {
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+}
+
+.troca .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 10%;
+    transition: .1s;
+}
+
+input {
+    display: none;
+}
+
+input:checked~nav .opções {
+    transform: translateY(0);
+    z-index: 1;
+}
