@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+}
+body {
+    background: white;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    width: 94vw;
+    height: 92vh;
+    margin: 4vh 3vw;
+    border-radius: 30px;
+}
+.a,
+.b {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a,
+form {
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: bold;  
+    color: black;
+}
+img {
+    width: 50%;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+img:hover {
+    transform: translateX(-10%);
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(188, 219, 209);
+    border-radius: 20px;
+    padding: 0 5% 5% 5%;
+    width: 24vw;
+    height: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+.nome {
+    font-size: 2em;
+    font-weight: bold;
+    align-self: center;
+    color: black;
+}
+.texto {
+    font-weight: bold;
+    align-self: flex-start;
+    color: black
+}
+label {
+    font-size: 1.3em;
+    margin-bottom: 1vh;
+    margin-left: 10px;
+}
+input {
+    color: black;
+    padding: 5%;
+    margin-bottom: 6vh;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    transition: all .2s;
+}
+button {
+    font-size: 1.6em;
+    font-weight: bold;
+    width: 40%;
+    align-self: center;
+    padding: 10px;
+    background: whitesmoke;
+    background-size: 600% 600%;
+    animation: Gradient 9s ease infinite;
+    border-radius: 20px;
+    border: 2px white solid;
+    cursor: pointer;
+    transition: all .2s;
+}
+.botao{
+    font-weight: bold;
+     color: black
+}
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+        height: fit-content;
+    }
+    div{
+        height: fit-content;
+    }
+    form {
+        width: 70vw;
+        height: fit-content;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+}
