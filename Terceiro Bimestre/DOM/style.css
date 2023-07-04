@@ -1,0 +1,61 @@
+body {
+    font-family: "Trirong", serif;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: rgb(168, 168, 168);
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tbody {
+    border: 2px solid black;
+}
+
+th {
+    padding: 8px;
+    text-align: middle;
+    background-color: rgb(41, 41, 41);
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 1px solid black;
+}
+
+.vermelho {
+    background-color: rgb(233, 40, 40);
+}
+
+.laranja {
+    background-color: rgb(240, 174, 51);
+}
+
+.amarelo-escuro {
+    background-color: rgb(216, 216, 108);
+}
+
+.amarelo {
+    background-color: rgb(180, 245, 134);
+}
+
+.verde {
+    background-color: rgb(81, 240, 81);
+}
+
+.title {
+    text-align: center;
+}
+
+.disclaimer {
+    text-align: center;
+}
